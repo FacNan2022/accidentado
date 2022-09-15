@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Accidentado-challenge</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            
+            <a href=""><img id="logo" src="./imagen/300241968_825238355158655_5486958412120916947_n.png" alt="logo"></a>
+            <img id="bandera" src="./imagen/Ganaste.jpg" alt="logo-banderas" >
+            <img src="https://acegif.com/wp-content/uploads/gifs/race-flag-2.gif" id="presentacion">
+            <div class="juego" style="visibility:hidden ;">
+               
+
+                <div class="ruta">
+
+
+
+                    <div class="auto-explotado">
+                        <img id="auto" alt="imagen-auto-explotado" width="100%" height="100%">
+                        <div class="explosion">
+                            <img id="explosion" alt="" style="visibility: hidden ;">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="correcta">
+
+                </div>
+
+                <div class="incorrecto">
+
+
+                </div>
+                <div class="buttons">
+
+                    
+
+                    <form class="nuevo" action="javascript:void(0)">
+
+                        <input type="button" class="btn-azul" value="Nuevo Juego" onclick="nuevaJugada()">
+
+              
+
+                <div class="desistir">
+
+                    <button onclick="desistir()" type="submit">Desistir</button>
+
+                </div>
+            </div>
+            </div>
+<div class="botonesInicio" width="100%">
+    <div id="inicio">
+
+        <button class="inicio"onclick="iniciarJuego()"><strong>Inicie el juego</strong></button>
+
+    </div>
+
+    <div id="agregar">
+
+        <button class="inicio-agregar" onclick="agregarPalabra()" >Agregar palabra</button>
+        
+
+    </div>
+    <input type="text" id="texto"style="visibility:hidden">
+</div>
+          
+
+        </div>
+
+
+        </div>
+
+    </header>
+
+    <script src="./accidentado.js">
+
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
